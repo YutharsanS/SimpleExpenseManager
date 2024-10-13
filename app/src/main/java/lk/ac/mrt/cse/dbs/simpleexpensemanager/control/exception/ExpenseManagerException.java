@@ -16,15 +16,13 @@
 
 package lk.ac.mrt.cse.dbs.simpleexpensemanager.control.exception;
 
-/**
- * This exception can be thrown when an error occurs during expense manager mediation.
- */
+/** This exception can be thrown when an error occurs during expense manager mediation. */
 public class ExpenseManagerException extends Exception {
-    public ExpenseManagerException(String detailMessage) {
-        super(detailMessage);
-    }
+  public ExpenseManagerException(String detailMessage) {
+    super(detailMessage);
+  }
 
-    public ExpenseManagerException(String detailMessage, Throwable throwable) {
-        super(detailMessage, throwable);
-    }
+  public ExpenseManagerException(String detailMessage, Throwable throwable) {
+    super(detailMessage, throwable);
+  }
 }
